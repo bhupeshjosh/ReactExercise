@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <ListContacts
-        contact={this.state.contacts}
+        contacts={this.state.contacts}
         onClick={this.deleteContact}
       />
     );
